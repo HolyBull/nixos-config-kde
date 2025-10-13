@@ -26,6 +26,17 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
+#   boot.loader = {
+#     systemd-boot.enable = false;
+#     efi.canTouchEfiVariables = false;
+#
+#     grub = {
+#       enable = true;
+#       version = 2;
+#       device = "/dev/sda";  # install GRUB to the MBR of your virtual disk
+#     };
+#   };
+
   # Use latest kernel.
   hardware.enableRedistributableFirmware = true;
   # boot.kernelPackages = pkgs.linuxPackages_latest;
@@ -129,6 +140,7 @@
     iso-flags
     vivaldi
     vivaldi-ffmpeg-codecs
+    chromium
     gparted
     expressvpn
     insync
@@ -137,6 +149,7 @@
     mono
     input-remapper
     steam
+    kdePackages.kfind
   ];
 
 #    programs.steam.enable = true;

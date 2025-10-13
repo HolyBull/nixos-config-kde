@@ -1,0 +1,24 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display,dolphin_directorysizemode.upd:convert-directorysizecount-to-directorysizemode
+
+[DetailsMode]
+PreviewSize=16
+
+[General]
+Version=202
+ViewPropsTimestamp=2024,10,18,10,10,22.654
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[Notification Messages]
+warnAboutRisksBeforeActingAsAdmin=false
+
+[Search]
+What=Content

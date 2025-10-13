@@ -16,8 +16,13 @@
       neofetch
     ];
 
-    # KDE/Plasma layout
+    # KDE/Plasma config files
     home.file.".config/plasma-org.kde.plasma.desktop-appletsrc".source = ./dotfiles/plasma-org.kde.plasma.desktop-appletsrc;
+    home.file.".config/dolphinrc".source = ./dotfiles/dolphinrc;
+    home.file.".config/powerdevilrc".source = ./dotfiles/powerdevilrc;
+
+#     # KDE/Plasma Power management
+#     home.file.".config/powerdevilrc".source = ./dotfiles/powerdevilrc;
 
     # KDE/Plasma Wayland keyboard layout (Alt+Shift switching)
     home.file.".config/kxkbrc".text = ''
